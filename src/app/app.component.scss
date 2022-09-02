@@ -1,0 +1,153 @@
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: rgba(240, 240, 240, 1);
+  font-size: 16px;
+  color: rgba(0, 0, 0, 80%);
+
+  .top {
+    height: 100px;
+    background-color: #ec3237;
+    width: 100%;
+    display: flex;
+    font-weight: 900;
+    font-size: 16px;
+    position: absolute;
+
+    img {
+      width: 4%;
+      margin-left: 35px;
+    }
+
+    p {
+      margin: 35px;
+    }
+  }
+
+  .middle {
+    display: flex;
+    height: 100%;
+    padding: 100px;
+
+    .left {
+      width: 50%;
+      margin-top: 20px;
+      margin-right: 50px;
+
+      input {
+        width: 300px;
+        border-radius: 20px;
+        height: 40px;
+        padding-left: 15px;
+      }
+
+      button {
+        width: 100px;
+        height: 45px;
+        border-radius: 20px;
+        background-color: #00904f;
+        color: white;
+        position: absolute;
+        bottom: 150px;
+        left: 100px;
+      }
+
+      .share-box {
+        width: 300px;
+        height: 20px;
+        border-radius: 10px;
+        background: white;
+        outline: auto;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 40px;
+        line-height: 111.5%;
+        max-width: 525px;
+        color: black;
+      }
+    }
+
+    .right {
+      width: 50%;
+      margin-top: 55px;
+
+      h1 {
+        font-size: 50px;
+        max-width: 655px;
+        margin: auto;
+        color: black;
+      }
+    }
+  }
+  .bottom {
+    height: 100px;
+    width: 100%;
+    background-color: #00904f;
+    display: flex;
+    font-weight: 900;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0px;
+
+    img {
+      width: 4%;
+      margin-left: 35px;
+    }
+
+    p {
+      margin: 35px;
+    }
+  }
+}
+
+.number-slide2 {
+  .middle {
+    .right {
+      h1 {
+        max-width: 250px;
+        margin: 0px;
+      }
+    }
+  }
+}
+
+.number-slide3 {
+  .middle {
+    .right {
+      h1 {
+        max-width: 200px;
+        margin: 0px;
+      }
+    }
+  }
+}
+
+.number-slide4 {
+  .middle {
+    .right {
+      h1 {
+        max-width: 200px;
+        margin: 0px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 2000px) {
+}
+
+@media screen and (max-width: 768px) {
+  [class^="number-slide"],
+  [class*=" number-slide"] {
+    .middle {
+        padding: 20px;
+        margin-top: 85px;
+        
+      .right {
+        display: none;
+      }
+    }
+  }
+}
