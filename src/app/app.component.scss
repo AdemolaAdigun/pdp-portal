@@ -148,6 +148,16 @@
       .right {
         display: none;
       }
+
+      .left {
+        .share-box {
+          width: 250px;
+        }
+
+        button {
+          left: 20px;
+        }
+      }
     }
   }
 }
